@@ -8,13 +8,13 @@ import org.jgrapht.graph.*;
 import org.jgrapht.traverse.*;
 
 public class Main {
-  static final String NE = "Nebraska";
-  static final String IA = "Iowa";
-  static final String CO = "Colorado";
-  static final String KS = "Kansas";
-  static final String MO = "Missouri";
-  static final String WY = "Wyoming";
-  static final String SD = "South Dakota";
+  static final String NE = countryCodes.NE;
+  static final String IA = countryCodes.IA;
+  static final String CO = countryCodes.CO;
+  static final String KS = countryCodes.KS;
+  static final String MO = countryCodes.MO;
+  static final String WY = countryCodes.WY;
+  static final String SD = countryCodes.SD;
 
   public static void main(final String[] args) {
 
