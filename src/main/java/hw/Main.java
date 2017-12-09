@@ -81,13 +81,13 @@ public class Main {
     final Iterator<String> rw = new RandomWalkIterator<>(myMap, NE, false, 12);
     while (rw.hasNext()) {
       final String country = rw.next();
-      System.out.println("Random walk starting at NE " + country);
+      System.out.println("Random walk starting @ NE " + country);
     }
 
     final Iterator<String> RW = new RandomWalkIterator<>(myMap, CO, false, 12);
     while (RW.hasNext()) {
       final String country = RW.next();
-      System.out.println("Random walk starting at CO " + country);
+      System.out.println("Random walk starting @ CO " + country);
     }
 
     GreedyColoring map = new GreedyColoring(myMap);
