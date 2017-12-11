@@ -1,7 +1,7 @@
 # Q&A
 1) Discuss the differences among the results.
-  - Randonwalk revisits some states multiple times given different starting points
-  - Closest first produces a completely random output with different starting points
+  - Randonwalk revisits some states multiple times regardless of starting point
+  - Closest first produces a completely random output regardless of starting point
   - Depth first produces an output in which some of the states are in the same order given two different starting points
   - Breadth first seems to act the same as closest first, producing a random output from two different starting points
 2) Give two or three examples of how/why a real-world map might require more than four colors.
